@@ -60,6 +60,9 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
         case 0:
             gotoToast()
             break
+        case 1:
+            gotoLoadding()
+            break
         default:
             break
         }
@@ -70,6 +73,11 @@ extension ViewController {
     
     func gotoToast() {
         let vc:ToastExampleViewController = ToastExampleViewController.init()
+        navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    func gotoLoadding() {
+        let vc:LoaddingExampleViewController = LoaddingExampleViewController.init()
         navigationController?.pushViewController(vc, animated: true)
     }
 }

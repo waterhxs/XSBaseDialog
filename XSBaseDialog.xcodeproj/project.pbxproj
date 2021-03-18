@@ -29,6 +29,7 @@
 		8C07DAA22603427500E9FE33 /* XSBaseToastProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C07DA962603427500E9FE33 /* XSBaseToastProtocol.swift */; };
 		8C07DAA82603427F00E9FE33 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C07DAA62603427F00E9FE33 /* ViewController.swift */; };
 		8C07DAA92603427F00E9FE33 /* ToastExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C07DAA72603427F00E9FE33 /* ToastExampleViewController.swift */; };
+		8C07DAB126034EA900E9FE33 /* LoaddingExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C07DAB026034EA800E9FE33 /* LoaddingExampleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,7 @@
 		8C07DA962603427500E9FE33 /* XSBaseToastProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XSBaseToastProtocol.swift; sourceTree = "<group>"; };
 		8C07DAA62603427F00E9FE33 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8C07DAA72603427F00E9FE33 /* ToastExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToastExampleViewController.swift; sourceTree = "<group>"; };
+		8C07DAB026034EA800E9FE33 /* LoaddingExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaddingExampleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +184,7 @@
 			children = (
 				8C07DAA72603427F00E9FE33 /* ToastExampleViewController.swift */,
 				8C07DAA62603427F00E9FE33 /* ViewController.swift */,
+				8C07DAB026034EA800E9FE33 /* LoaddingExampleViewController.swift */,
 			);
 			path = Example;
 			sourceTree = "<group>";
@@ -321,6 +324,7 @@
 				8C07DA972603427500E9FE33 /* XSBaseToastBaseViewController.swift in Sources */,
 				8C07DAA92603427F00E9FE33 /* ToastExampleViewController.swift in Sources */,
 				8C07DA9F2603427500E9FE33 /* XSBaseLoaddingView.swift in Sources */,
+				8C07DAB126034EA900E9FE33 /* LoaddingExampleViewController.swift in Sources */,
 				8C07DA9A2603427500E9FE33 /* XSBaseToastTaskQueue.swift in Sources */,
 				8C07DA982603427500E9FE33 /* XSBaseToastContainerView.swift in Sources */,
 				8C07DA9D2603427500E9FE33 /* XSBaseToastVendorExtension.swift in Sources */,

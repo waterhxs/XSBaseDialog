@@ -10,7 +10,7 @@
 pod 'XSBaseDialog'
 ```
 
-#### 配置
+#### Toast配置
 ```swift
 // time : 需要显示的时间
 // defaultFont : 不使用富媒体时的默认字体
@@ -36,14 +36,26 @@ XSBaseToastManager.config(time: 3.0,
         }
 ```
 
-#### 显示
+#### Toast显示
 
-```java
+```swift
 // 使用默认的字体和颜色显示
 XSBaseToastManager.showToast(message: message)
 // 自定义富媒体
 XSBaseToastManager.showToast(messageAttr: attrMessage)
 ```
+
+#### Loadding使用
+```swift
+let hud = XSBaseLoaddingView.showHudToView(view: view, text: NSMutableAttributedString.init(string: "正在加载，请稍等一下"))
+weak var weakSelf = self
+DispatchQueue.main.asyncAfter(deadline: .now() + 5.0) {
+	// hud.close()
+	XSBaseLoaddingView.closeAllHudInView(view: weakSelf!.view)
+}
+```
+
+#### 具体使用可参考项目中的Example
 
 ## License
 

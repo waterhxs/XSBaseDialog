@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
                        肥牛 基础弹窗
                        DESC
   #主页,这里要填写可以访问到的地址，不然验证不通过
-  s.homepage         = "http://www.baidu.com"                           
+  s.homepage         = "https://github.com/waterhxs"                           
   #截图
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"           
   #开源协议

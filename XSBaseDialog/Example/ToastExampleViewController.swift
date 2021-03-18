@@ -43,6 +43,7 @@ class ToastExampleViewController: UIViewController {
         XSBaseToastManager.config(time: 3.0,
                                   defaultFont: UIFont.boldSystemFont(ofSize: 17.0),
                                   defaultTextColor: .red,
+                                  defaultBackgroudColor: .blue,
                                   actionURLSchemeWhiteList: ["http","https"]) { (u:URL) in
             
             let scheme = u.scheme ?? ""

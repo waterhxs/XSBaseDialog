@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   #作者信息
   s.author           = { "waterh_xs" => "waterh_xs@163.com" }                   
   #项目地址，这里不支持ssh的地址，验证不通过，只支持HTTP和HTTPS，最好使用HTTPS
-  s.source           = { :git => "git@github.com:waterhxs/XSBaseDialog.git", :branch => "main" }
+  s.source           = { :git => "https://github.com/waterhxs/XSBaseDialog.git", :branch => "main" }
   #多媒体介绍地址     
   # s.social_media_url = 'https://twitter.com/'                       
 

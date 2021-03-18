@@ -9,13 +9,26 @@
 /* Begin PBXBuildFile section */
 		8C07DA3D2603419D00E9FE33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C07DA3C2603419D00E9FE33 /* AppDelegate.swift */; };
 		8C07DA3F2603419D00E9FE33 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C07DA3E2603419D00E9FE33 /* SceneDelegate.swift */; };
-		8C07DA412603419D00E9FE33 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C07DA402603419D00E9FE33 /* ViewController.swift */; };
 		8C07DA442603419D00E9FE33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C07DA422603419D00E9FE33 /* Main.storyboard */; };
 		8C07DA472603419D00E9FE33 /* XSBaseDialog.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8C07DA452603419D00E9FE33 /* XSBaseDialog.xcdatamodeld */; };
 		8C07DA492603419E00E9FE33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C07DA482603419E00E9FE33 /* Assets.xcassets */; };
 		8C07DA4C2603419E00E9FE33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C07DA4A2603419E00E9FE33 /* LaunchScreen.storyboard */; };
 		8C07DA572603419E00E9FE33 /* XSBaseDialogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C07DA562603419E00E9FE33 /* XSBaseDialogTests.swift */; };
 		8C07DA622603419E00E9FE33 /* XSBaseDialogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C07DA612603419E00E9FE33 /* XSBaseDialogUITests.swift */; };
+		8C07DA972603427500E9FE33 /* XSBaseToastBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C07DA8B2603427500E9FE33 /* XSBaseToastBaseViewController.swift */; };
+		8C07DA982603427500E9FE33 /* XSBaseToastContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C07DA8C2603427500E9FE33 /* XSBaseToastContainerView.swift */; };
+		8C07DA992603427500E9FE33 /* XSBaseToastLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C07DA8D2603427500E9FE33 /* XSBaseToastLevel.swift */; };
+		8C07DA9A2603427500E9FE33 /* XSBaseToastTaskQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C07DA8E2603427500E9FE33 /* XSBaseToastTaskQueue.swift */; };
+		8C07DA9B2603427500E9FE33 /* XSBaseToastUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C07DA8F2603427500E9FE33 /* XSBaseToastUtil.swift */; };
+		8C07DA9C2603427500E9FE33 /* XSBaseToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C07DA902603427500E9FE33 /* XSBaseToastView.swift */; };
+		8C07DA9D2603427500E9FE33 /* XSBaseToastVendorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C07DA912603427500E9FE33 /* XSBaseToastVendorExtension.swift */; };
+		8C07DA9E2603427500E9FE33 /* XSBaseToastWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C07DA922603427500E9FE33 /* XSBaseToastWindow.swift */; };
+		8C07DA9F2603427500E9FE33 /* XSBaseLoaddingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C07DA932603427500E9FE33 /* XSBaseLoaddingView.swift */; };
+		8C07DAA02603427500E9FE33 /* XSBaseToastContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C07DA942603427500E9FE33 /* XSBaseToastContentView.swift */; };
+		8C07DAA12603427500E9FE33 /* XSBaseToastManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C07DA952603427500E9FE33 /* XSBaseToastManager.swift */; };
+		8C07DAA22603427500E9FE33 /* XSBaseToastProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C07DA962603427500E9FE33 /* XSBaseToastProtocol.swift */; };
+		8C07DAA82603427F00E9FE33 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C07DAA62603427F00E9FE33 /* ViewController.swift */; };
+		8C07DAA92603427F00E9FE33 /* ToastExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C07DAA72603427F00E9FE33 /* ToastExampleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +52,6 @@
 		8C07DA392603419D00E9FE33 /* XSBaseDialog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XSBaseDialog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C07DA3C2603419D00E9FE33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8C07DA3E2603419D00E9FE33 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8C07DA402603419D00E9FE33 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8C07DA432603419D00E9FE33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8C07DA462603419D00E9FE33 /* XSBaseDialog.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = XSBaseDialog.xcdatamodel; sourceTree = "<group>"; };
 		8C07DA482603419E00E9FE33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +63,20 @@
 		8C07DA5D2603419E00E9FE33 /* XSBaseDialogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XSBaseDialogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C07DA612603419E00E9FE33 /* XSBaseDialogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XSBaseDialogUITests.swift; sourceTree = "<group>"; };
 		8C07DA632603419E00E9FE33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C07DA8B2603427500E9FE33 /* XSBaseToastBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XSBaseToastBaseViewController.swift; sourceTree = "<group>"; };
+		8C07DA8C2603427500E9FE33 /* XSBaseToastContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XSBaseToastContainerView.swift; sourceTree = "<group>"; };
+		8C07DA8D2603427500E9FE33 /* XSBaseToastLevel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XSBaseToastLevel.swift; sourceTree = "<group>"; };
+		8C07DA8E2603427500E9FE33 /* XSBaseToastTaskQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XSBaseToastTaskQueue.swift; sourceTree = "<group>"; };
+		8C07DA8F2603427500E9FE33 /* XSBaseToastUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XSBaseToastUtil.swift; sourceTree = "<group>"; };
+		8C07DA902603427500E9FE33 /* XSBaseToastView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XSBaseToastView.swift; sourceTree = "<group>"; };
+		8C07DA912603427500E9FE33 /* XSBaseToastVendorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XSBaseToastVendorExtension.swift; sourceTree = "<group>"; };
+		8C07DA922603427500E9FE33 /* XSBaseToastWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XSBaseToastWindow.swift; sourceTree = "<group>"; };
+		8C07DA932603427500E9FE33 /* XSBaseLoaddingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XSBaseLoaddingView.swift; sourceTree = "<group>"; };
+		8C07DA942603427500E9FE33 /* XSBaseToastContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XSBaseToastContentView.swift; sourceTree = "<group>"; };
+		8C07DA952603427500E9FE33 /* XSBaseToastManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XSBaseToastManager.swift; sourceTree = "<group>"; };
+		8C07DA962603427500E9FE33 /* XSBaseToastProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XSBaseToastProtocol.swift; sourceTree = "<group>"; };
+		8C07DAA62603427F00E9FE33 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8C07DAA72603427F00E9FE33 /* ToastExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToastExampleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +127,10 @@
 		8C07DA3B2603419D00E9FE33 /* XSBaseDialog */ = {
 			isa = PBXGroup;
 			children = (
+				8C07DA872603424300E9FE33 /* Example */,
+				8C07DA862603423700E9FE33 /* Dialog */,
 				8C07DA3C2603419D00E9FE33 /* AppDelegate.swift */,
 				8C07DA3E2603419D00E9FE33 /* SceneDelegate.swift */,
-				8C07DA402603419D00E9FE33 /* ViewController.swift */,
 				8C07DA422603419D00E9FE33 /* Main.storyboard */,
 				8C07DA482603419E00E9FE33 /* Assets.xcassets */,
 				8C07DA4A2603419E00E9FE33 /* LaunchScreen.storyboard */,
@@ -129,6 +156,34 @@
 				8C07DA632603419E00E9FE33 /* Info.plist */,
 			);
 			path = XSBaseDialogUITests;
+			sourceTree = "<group>";
+		};
+		8C07DA862603423700E9FE33 /* Dialog */ = {
+			isa = PBXGroup;
+			children = (
+				8C07DA932603427500E9FE33 /* XSBaseLoaddingView.swift */,
+				8C07DA8B2603427500E9FE33 /* XSBaseToastBaseViewController.swift */,
+				8C07DA8C2603427500E9FE33 /* XSBaseToastContainerView.swift */,
+				8C07DA942603427500E9FE33 /* XSBaseToastContentView.swift */,
+				8C07DA8D2603427500E9FE33 /* XSBaseToastLevel.swift */,
+				8C07DA952603427500E9FE33 /* XSBaseToastManager.swift */,
+				8C07DA962603427500E9FE33 /* XSBaseToastProtocol.swift */,
+				8C07DA8E2603427500E9FE33 /* XSBaseToastTaskQueue.swift */,
+				8C07DA8F2603427500E9FE33 /* XSBaseToastUtil.swift */,
+				8C07DA912603427500E9FE33 /* XSBaseToastVendorExtension.swift */,
+				8C07DA902603427500E9FE33 /* XSBaseToastView.swift */,
+				8C07DA922603427500E9FE33 /* XSBaseToastWindow.swift */,
+			);
+			path = Dialog;
+			sourceTree = "<group>";
+		};
+		8C07DA872603424300E9FE33 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				8C07DAA72603427F00E9FE33 /* ToastExampleViewController.swift */,
+				8C07DAA62603427F00E9FE33 /* ViewController.swift */,
+			);
+			path = Example;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,10 +316,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C07DA412603419D00E9FE33 /* ViewController.swift in Sources */,
 				8C07DA3D2603419D00E9FE33 /* AppDelegate.swift in Sources */,
+				8C07DAA12603427500E9FE33 /* XSBaseToastManager.swift in Sources */,
+				8C07DA972603427500E9FE33 /* XSBaseToastBaseViewController.swift in Sources */,
+				8C07DAA92603427F00E9FE33 /* ToastExampleViewController.swift in Sources */,
+				8C07DA9F2603427500E9FE33 /* XSBaseLoaddingView.swift in Sources */,
+				8C07DA9A2603427500E9FE33 /* XSBaseToastTaskQueue.swift in Sources */,
+				8C07DA982603427500E9FE33 /* XSBaseToastContainerView.swift in Sources */,
+				8C07DA9D2603427500E9FE33 /* XSBaseToastVendorExtension.swift in Sources */,
+				8C07DAA02603427500E9FE33 /* XSBaseToastContentView.swift in Sources */,
 				8C07DA3F2603419D00E9FE33 /* SceneDelegate.swift in Sources */,
+				8C07DA992603427500E9FE33 /* XSBaseToastLevel.swift in Sources */,
+				8C07DA9C2603427500E9FE33 /* XSBaseToastView.swift in Sources */,
 				8C07DA472603419D00E9FE33 /* XSBaseDialog.xcdatamodeld in Sources */,
+				8C07DA9E2603427500E9FE33 /* XSBaseToastWindow.swift in Sources */,
+				8C07DAA22603427500E9FE33 /* XSBaseToastProtocol.swift in Sources */,
+				8C07DAA82603427F00E9FE33 /* ViewController.swift in Sources */,
+				8C07DA9B2603427500E9FE33 /* XSBaseToastUtil.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,6 +511,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R739Q9S6CR;
 				INFOPLIST_FILE = XSBaseDialog/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -462,6 +531,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R739Q9S6CR;
 				INFOPLIST_FILE = XSBaseDialog/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

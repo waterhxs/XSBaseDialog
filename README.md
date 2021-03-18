@@ -12,6 +12,12 @@ pod 'XSBaseDialog'
 
 #### 配置
 ```swift
+// time : 需要显示的时间
+// defaultFont : 不使用富媒体时的默认字体
+// defaultTextColor : 不使用富媒体时的文字颜色
+// defaultBackgroudColor : Toast的背景颜色
+// actionURLSchemeWhiteList : 需要响应点击的URL协议
+// actionCallback : 点击了Toast中的富媒体文本link的响应事件回调
 XSBaseToastManager.config(time: 3.0,
 			  defaultFont: UIFont.boldSystemFont(ofSize: 17.0),
 			  defaultTextColor: .red,

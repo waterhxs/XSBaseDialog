@@ -13,10 +13,10 @@ pod 'XSBaseDialog'
 #### 配置
 ```swift
 XSBaseToastManager.config(time: 3.0,
-			defaultFont: UIFont.boldSystemFont(ofSize: 17.0),
-			defaultTextColor: .red,
-			defaultBackgroudColor: .blue,
-			actionURLSchemeWhiteList: ["http","https"]) { (u:URL) in
+			  defaultFont: UIFont.boldSystemFont(ofSize: 17.0),
+			  defaultTextColor: .red,
+			  defaultBackgroudColor: .blue,
+			  actionURLSchemeWhiteList: ["http","https"]) { (u:URL) in
             
             // 点击相应的URL进行处理
             let scheme = u.scheme ?? ""

@@ -10,6 +10,11 @@
 pod 'XSBaseDialog'
 ```
 
+#### 导入
+```swift
+import XSBaseDialog
+```
+
 #### Toast配置
 ```swift
 // time : 需要显示的时间

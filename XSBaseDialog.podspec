@@ -25,14 +25,16 @@ Pod::Spec.new do |s|
   #支持的平台及版本
   s.platform     = :ios, '10.0'
   #是否使用ARC，如果指定具体文件，则具体的问题使用ARC 
-  #s.requires_arc = true                              
+  #s.requires_arc = true
+
+  s.swift_versions = ['5.0']                
 
 
   #################################################
   # Toast And Dialog
   #################################################
 
-  s.subspec 'BaseDialog' do |dialog|      
+  s.subspec 'XSBaseDialog' do |dialog|      
     dialog.platform     = :ios, '10.0'
     dialog.ios.source_files = 'XSBaseDialog/Dialog/*.swift'
     dialog.frameworks = 'UIKit'

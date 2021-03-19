@@ -20,7 +20,7 @@ class LoaddingExampleViewController: UIViewController {
         weak var weakSelf = self
         DispatchQueue.main.asyncAfter(deadline: .now() + 5.0) {
             // hud.close()
-            XSBaseLoaddingView.closeAllHudInView(view: weakSelf!.view)
+            XSBaseLoaddingView.closeAllHudInView(view: weakSelf?.view ?? UIView.init())
         }
     }
 

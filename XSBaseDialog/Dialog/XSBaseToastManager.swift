@@ -87,13 +87,13 @@ extension XSBaseToastManager {
     
     /// 显示简单文本
     /// - Parameter message: 文本内容
-    static func showToast(message:String) {
+    public static func showToast(message:String) {
         XSBaseToastManager.sharedInstance.show(text: message)
     }
     
     /// 显示富文本内容
     /// - Parameter messageAttr: 富文本
-    static func showToast(messageAttr:NSMutableAttributedString) {
+    public static func showToast(messageAttr:NSMutableAttributedString) {
         XSBaseToastManager.sharedInstance.show(message: messageAttr)
     }
 }

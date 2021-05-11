@@ -16,11 +16,11 @@ class LoaddingExampleViewController: UIViewController {
     }()
     
     @IBAction private func onBtnSingleClick(_ sender:Any) {
-        let hud = XSBaseLoaddingView.showHudToView(view: view, text: NSMutableAttributedString.init(string: "正在加载，请稍等一下"))
+        let hud = XSBaseLoaddingView.showHudToView(view: view, text: NSMutableAttributedString.init(string: "正在加载，请稍等一下，5秒后关闭"))
         weak var weakSelf = self
         DispatchQueue.main.asyncAfter(deadline: .now() + 5.0) {
             // hud.close()
-            XSBaseLoaddingView.closeAllHudInView(view: weakSelf!.view)
+            XSBaseLoaddingView.closeAllHudInView(view: weakSelf?.view ?? UIView.init())
         }
     }
 
@@ -45,4 +45,7 @@ class LoaddingExampleViewController: UIViewController {
         return btn
     }
 
+    deinit {
+        debugPrint("deinit LoaddingController")
+    }
 }

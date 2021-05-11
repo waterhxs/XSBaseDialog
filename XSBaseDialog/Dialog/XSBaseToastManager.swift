@@ -7,7 +7,7 @@
 
 import UIKit
 
-class XSBaseToastManager: NSObject {
+open class XSBaseToastManager: NSObject {
     
     public var onActionCallback:(_ u:URL)->() = {_ in}
     

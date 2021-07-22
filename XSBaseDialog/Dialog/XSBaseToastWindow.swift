@@ -26,7 +26,7 @@ open class XSBaseToastWindow: UIWindow {
         if #available(iOS 13.0, *) {
             let windowScene = UIApplication.shared
                             .connectedScenes
-                            .filter { $0.activationState == .foregroundActive }
+                            //.filter { $0.activationState == .foregroundActive }
                             .first
             if let windowScene = windowScene as? UIWindowScene {
                 let alertWindow = XSBaseToastWindow.init(windowScene: windowScene)

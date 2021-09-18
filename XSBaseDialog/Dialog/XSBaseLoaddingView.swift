@@ -211,39 +211,39 @@ extension XSBaseLoaddingView {
     /// - Parameters:
     ///   - view: 覆盖的view
     ///   - text: 富媒体文本
-    public static func showHudToView(view:UIView,
+    public static func showHudToView(view:UIView?,
                                      text:NSMutableAttributedString) -> XSBaseLoaddingView{
         guard view != nil else {
             return XSBaseLoaddingView.init(frame: .zero)
         }
-        let hud = XSBaseLoaddingView.init(frame: view.bounds)
+        let hud = XSBaseLoaddingView.init(frame: view!.bounds)
         hud.show(text: text)
-        view.addSubview(hud)
+        view!.addSubview(hud)
         return hud
     }
     
     
     /// 关闭一个hud
     /// - Parameter hud: 需要关闭的hud
-    public static func closeHud(hud:XSBaseLoaddingView) {
+    public static func closeHud(hud:XSBaseLoaddingView?) {
         guard hud != nil else {
             return
         }
         UIView.animate(withDuration: 0.2) {
-            hud.vBackgroud.alpha = 0.0
+            hud!.vBackgroud.alpha = 0.0
         } completion: { (complete) in
-            hud.removeFromSuperview()
+            hud!.removeFromSuperview()
         }
     }
     
     /// 关闭一个view上所有的hud
     /// - Parameter view: 需要检测的view
-    public static func closeAllHudInView(view:UIView){
+    public static func closeAllHudInView(view:UIView?){
         guard view != nil else {
             return
         }
         var huds:[UIView] = []
-        for subView in view.subviews {
+        for subView in view!.subviews {
             if subView.isKind(of: XSBaseLoaddingView.self) {
                 huds.append(subView)
             }

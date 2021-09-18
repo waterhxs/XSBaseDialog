@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.summary          = "肥牛 基础弹窗"  
   #详细介绍   
   s.description      = <<-DESC
-                       肥牛 基础弹窗
+                       肥牛 基础弹窗,类似Android的弹窗，不需受限于uiviewcontroller
                        DESC
   #主页,这里要填写可以访问到的地址，不然验证不通过
   s.homepage         = "https://github.com/waterhxs"                           

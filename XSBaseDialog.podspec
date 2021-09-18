@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   #名称
   s.name             = "XSBaseDialog"    
   #版本号
-  s.version          = "1.0.0"             
+  s.version          = "1.1.0"             
   #简短介绍
   s.summary          = "肥牛 基础弹窗"  
   #详细介绍   
